@@ -38,7 +38,7 @@ module.exports = (sequelize, DataTypes) => {
   },
    {
     sequelize,
-    modelName: 'forms',
+    modelName: 'databases',
     createdAt: false,
     updatedAt: false
   });
