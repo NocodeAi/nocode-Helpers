@@ -24,6 +24,7 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.STRING,
     properties: DataTypes.STRING(100000),
     is_deleted:DataTypes.BOOLEAN,
+    token:DataTypes.STRING,
     created_at:  {
       type: DataTypes.DATE,
       allowNull: true
